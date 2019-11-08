@@ -1,0 +1,10 @@
+#!/usr/bin/env xdg-open
+
+[Desktop Entry]
+Version=1.0
+Type=Application
+Terminal=false
+Exec=docker run -it --rm -u minknow -e DISPLAY=:0 -v /tmp/.X11-unix:/tmp/.X11-unix:ro --privileged -v /var/lib/minknow:/var/lib/minknow -v /var/log/minknow:/var/log/minknow minknow /opt/ui/MinKNOW
+Name=MinKNOW
+Icon=
+X-Desktop-File-Install-Version=0.24
