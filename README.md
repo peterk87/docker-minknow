@@ -4,7 +4,7 @@ The files and instructions in this repo should enable you to install and run [Ox
 
 - Build the [Docker][] container specified in the [Dockerfile][] (or pull from [Docker Hub]... [TODO](#todo))
 - Ensure that you can launch [MinKNOW] through the [Docker][] container (see [docker run command](#minknow-docker-run-command))
-- Setup [MinKNOW.desktop][] (copy it to your `~/Desktop`) (see [setup instructions](#setting-up-minknow-desktop))
+- Setup [MinKNOW.desktop][] (copy it to your `~/Desktop`) (see [setup instructions](#setting-up-minknowdesktop))
 
 
 
